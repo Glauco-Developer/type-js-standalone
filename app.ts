@@ -1,6 +1,5 @@
-let message: string = "Hello"
-console.log(message + " Dude")
-
-let nro: number = 10
-let nro = '4'
-console.log(nro)
+let isEnough = function (nro: number) : boolean {
+  return nro > 12;
+}
+let distance = 4
+console.log(`${distance} is bigger then 12?\n ${isEnough(distance) ? 'Yes' : 'No'} `)

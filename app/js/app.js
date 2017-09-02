@@ -1,3 +1,5 @@
-var message = "Hello";
-console.log(message + " Dude");
-var nro = 10;
+var isEnough = function (nro) {
+    return nro > 12;
+};
+var distance = 4;
+console.log(distance + " is bigger then 12?\n " + (isEnough(distance) ? 'Yes' : 'No') + " ");
